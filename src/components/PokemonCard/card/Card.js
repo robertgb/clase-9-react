@@ -7,7 +7,7 @@ import {
   CardContainerStyled,
   CardStatusContainerStyled,
   CardTypeContainerStyled,
-  CartTextContentContainerStyled,
+  CardTextContentContainerStyled,
 } from "./CardStyles";
 
 const Pokemon = (props) => {
@@ -17,10 +17,10 @@ const Pokemon = (props) => {
     <CardContainerStyled>
       <PokemonImage image={sprites?.other.home.front_default} alt={name} />
 
-      <CartTextContentContainerStyled>
+      <CardTextContentContainerStyled>
         <h2>{name}</h2>
         <h3>{order}</h3>
-      </CartTextContentContainerStyled>
+      </CardTextContentContainerStyled>
 
       <CardStatusContainerStyled>
         {stats?.slice(0, 4).map((stat) => (

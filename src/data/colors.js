@@ -17,4 +17,5 @@ export const POKEMON_TYPE_COLORS = {
   dragon: "#7038F8",
   dark: "#705848",
   fairy: "#EE99AC",
+  mediocampista: "#AAD5E0",
 };

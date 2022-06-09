@@ -8,7 +8,7 @@ export const StatusBarContainerStyled = styled.div`
 `;
 
 export const StatusBarTitleStyled = styled.p`
-  flex-grow: 1;
+  width: 114px;
   margin: 5px 0;
   color: #4b4b4b;
 
@@ -18,7 +18,7 @@ export const StatusBarTitleStyled = styled.p`
 `;
 
 export const StatusBarLineStyled = styled.div`
-  width: 215px;
+  width: 180px;
   height: 10;
   padding: 1px;
 

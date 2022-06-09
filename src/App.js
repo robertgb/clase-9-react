@@ -5,6 +5,8 @@ import { initialPokemon } from "./data/initialPokemon";
 
 import Search from "./components/search/Search";
 import Pokemon from "./components/PokemonCard/card/Card";
+import Loader from "./components/loader/Loader";
+import { MyAppStyled } from "./AppStyles";
 
 function App() {
   const [data, setData] = useState(initialPokemon);
@@ -19,12 +21,13 @@ function App() {
     setIsLoading(true);
 
     try {
+      let selectedPokemon = pokemon.toLowerCase().trim();
       const { data } = await axios.get(
-        `https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}`
+        `https://pokeapi.co/api/v2/pokemon/${selectedPokemon}`
       );
       setData(data);
     } catch (error) {
-      setError(error.message);
+      setError("Pokemon no encontrado");
     }
     setIsLoading(false);
   };
@@ -32,12 +35,12 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <main>
+      <MyAppStyled>
         <Search handleSubmit={handleSubmit} />
-        {isLoading && <h2>Cargando....</h2>}
-        {error && <h2>{error}</h2>}
+        {isLoading && <Loader />}
+        {error && <h2 style={{ color: "#F24C4C" }}>{error}</h2>}
         {data && <Pokemon {...data} />}
-      </main>
+      </MyAppStyled>
     </>
   );
 }

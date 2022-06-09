@@ -1,50 +1,42 @@
 export const initialPokemon = {
-  name: "React",
-  order: 101,
-  types: [
-    { slot: 1, type: { name: "Framework" } },
-    { slot: 2, type: { name: "Power" } },
-  ],
+  name: "Messi",
+  order: 10,
+  types: [{ slot: 1, type: { name: "mediocampista" } }],
   sprites: {
     other: {
       home: {
         front_default:
-          "https://4.bp.blogspot.com/-_YSVTe2ekBU/XKMntJDH0ZI/AAAAAAAAXNk/3d48i_XShWwvoMNj0YJWp2J4_Woh9dzGgCLcBGAs/s1600/reactjs%2Btutorial.png",
+          "https://cdn.pixabay.com/photo/2021/12/02/13/16/messi-6840531__480.png",
       },
     },
   },
-  weight: 20,
   stats: [
     {
-      base_stat: 90,
+      base_stat: 92,
       effort: 0,
       stat: {
-        name: "Rendimiento",
-        url: "https://pokeapi.co/api/v2/stat/1/",
+        name: "Disparo",
+      },
+    },
+    {
+      base_stat: 91,
+      effort: 0,
+      stat: {
+        name: "Pase",
       },
     },
     {
       base_stat: 95,
       effort: 0,
       stat: {
-        name: "Comunidad",
-        url: "https://pokeapi.co/api/v2/stat/2/",
+        name: "Regate",
       },
     },
     {
-      base_stat: 40,
-      effort: 0,
-      stat: {
-        name: "Diseño",
-        url: "https://pokeapi.co/api/v2/stat/3/",
-      },
-    },
-    {
-      base_stat: 75,
+      base_stat: 65,
       effort: 1,
       stat: {
-        name: "SEO",
-        url: "https://pokeapi.co/api/v2/stat/6/",
+        name: "Físico",
       },
     },
   ],

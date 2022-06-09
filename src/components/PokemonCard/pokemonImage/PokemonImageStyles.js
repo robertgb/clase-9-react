@@ -5,9 +5,8 @@ export const ImageContainerStyled = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 208px;
-  height: 208px;
-
+  width: 150px;
+  height: 150px;
   background-color: #f0f0f3;
   border-radius: 100px;
   box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 20px #ffffff;
@@ -15,16 +14,15 @@ export const ImageContainerStyled = styled.div`
 
 export const ImageBoxStyled = styled.div`
   position: relative;
-  width: 182px;
-  height: 182px;
+  width: 124px;
+  height: 124px;
   text-align: center;
 
   & img {
-    width: 220px;
-    height: 220px;
-
+    width: 162px;
+    height: 162px;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 0;
     left: -10px;
   }
@@ -35,8 +33,7 @@ export const ImageShadowStyled = styled.div`
   bottom: 0;
   right: 0;
   left: 0;
-
-  width: 230px;
+  width: 180px;
   height: 46px;
 
   background: radial-gradient(
