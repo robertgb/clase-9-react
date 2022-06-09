@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
         user-select: none;
         background-color: #EFEFF2;
         font-family: 'Poppins', sans-serif;
-        -webkit-tap-highlight-color: transparent;
+        -webkit-tap-highlight-color: transparent; 
     }
 `;
 

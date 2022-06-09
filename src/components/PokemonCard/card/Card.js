@@ -1,8 +1,8 @@
 import React from "react";
 import PokemonImage from "../pokemonImage/PokemonImage";
-
 import StatusBar from "../statusBar/StatusBar";
 import Type from "../type/Type";
+
 import {
   CardContainerStyled,
   CardStatusContainerStyled,

@@ -1,12 +1,12 @@
 import { useState } from "react";
 import axios from "axios";
 import GlobalStyles from "./styles/GlobalStyles";
+import { MyAppStyled } from "./AppStyles";
 import { initialPokemon } from "./data/initialPokemon";
 
 import Search from "./components/search/Search";
 import Pokemon from "./components/PokemonCard/card/Card";
 import Loader from "./components/loader/Loader";
-import { MyAppStyled } from "./AppStyles";
 
 function App() {
   const [data, setData] = useState(initialPokemon);
@@ -27,20 +27,20 @@ function App() {
       );
       setData(data);
     } catch (error) {
-      setError("Pokemon no encontrado");
+      setError("Pokemon no encontrado, busca bien pa 👀");
     }
     setIsLoading(false);
   };
 
   return (
     <>
-      <GlobalStyles />
       <MyAppStyled>
         <Search handleSubmit={handleSubmit} />
         {isLoading && <Loader />}
         {error && <h2 style={{ color: "#F24C4C" }}>{error}</h2>}
         {data && <Pokemon {...data} />}
       </MyAppStyled>
+      <GlobalStyles />
     </>
   );
 }

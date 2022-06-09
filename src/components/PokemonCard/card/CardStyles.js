@@ -5,7 +5,6 @@ export const CardContainerStyled = styled.div`
   flex-direction: column;
   gap: 15px;
   width: 300px;
-  height: auto;
   margin: 0 auto;
   padding: 30px 25px;
   padding-bottom: 15px;

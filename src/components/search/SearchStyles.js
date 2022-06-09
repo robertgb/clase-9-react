@@ -4,7 +4,7 @@ export const SearchFormStyled = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 18%;
+  width: 300px;
   height: 30px;
   padding: 0.5rem 1rem;
   border-radius: 25px;
