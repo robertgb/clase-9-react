@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import GlobalStyles from "./styles/GlobalStyles";
+import GlobalStyles from "./Styles/GlobalStyles";
 import { MyAppStyled } from "./AppStyles";
 import { initialPokemon } from "./data/initialPokemon";
 
