@@ -22,7 +22,7 @@ Busqueda de Pokemon
 Debe clonar este proyecto e iniciarlo en la branch por defecto Axios. Allí se encuentra la aplicación funcionando.
 
 ```bash
-  git pull git@github.com:Nucba-React/Clase-7.git
+  git clone git@github.com:Nucba-React/Clase-7.git
 ```
 
 Luego, en la rama CustomHook se encuentra la misma aplicación con la lógica del fetch a la API abstraída. 
