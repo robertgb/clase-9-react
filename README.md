@@ -19,13 +19,19 @@ Busqueda de Pokemon
 
 ## Utilización
 
-Debe clonar este proyecto e iniciarlo en la branch por defecto Axios. Allí se encuentra la aplicación funcionando.
+Debe clonar este proyecto e iniciarlo en la branch por defecto starter. Allí se encuentra la aplicación base funcionando, sin la lógica de la petición a la API.
 
 ```bash
   git clone git@github.com:Nucba-React/Clase-7.git
 ```
 
-Luego, en la rama CustomHook se encuentra la misma aplicación con la lógica del fetch a la API abstraída. 
+Empezaremos con el código de la rama Axios, donde estará la misma aplicación pero con la lógica del fetch a la API usando Axios. 
+
+```bash
+  git checkout Axios
+```
+
+Luego, en la rama CustomHook se encuentra la lógica del fetch a la API abstraída. 
 
 ```bash
   git checkout CustomHook
