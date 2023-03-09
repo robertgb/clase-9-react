@@ -1,4 +1,4 @@
-## Clase 8
+## Clase 9
 
 En este repositorio se encuentra el proyecto de Pokecards que consume la api https://pokeapi.co/ para la clase 8 del programa de Front End Avanzado de Nucba.
 
@@ -12,7 +12,7 @@ Busqueda de Pokemon
 
 - Fetching: como obtener información de una API Externa (Fetch / Axios)
 - Custom Hooks: como crear un hook personalizado y como utilizarlo (useAxios / useFetch)
-- Redux Thunk 
+- Redux Toolkit Async 
 - Crear una aplicación con un llamado asincrónico uniendo Axios, Redux, useAxios.
 
 
