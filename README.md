@@ -37,10 +37,10 @@ Luego, en la rama CustomHook se encuentra la lógica del fetch a la API abstraí
   git checkout CustomHook
 ```
 
-Por último, tenemos la misma aplicación migrada a Redux, utilizando ReduxThunk para manejar las peticiones asíncroncas en la siguiente rama.
+Por último, tenemos la misma aplicación migrada a Redux Toolkit, utilizando Redux para manejar las peticiones asíncroncas en la siguiente rama.
 
 ```bash
-  git checkout ReduxThunk
+  git checkout ReduxToolkit
 ```
 
 
