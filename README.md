@@ -1,6 +1,6 @@
 ## Clase 9
 
-En este repositorio se encuentra el proyecto de Pokecards que consume la api https://pokeapi.co/ para la clase 8 del programa de Front End Avanzado de Nucba.
+En este repositorio se encuentra el proyecto de Pokecards que consume la api https://pokeapi.co/ para la clase 9 del programa de Front End Avanzado de Nucba.
 
 Valores Iniciales
 ![App Screenshot](https://res.cloudinary.com/dcatzxqqf/image/upload/v1657580611/coding/Readmes/Reaact/Clase-7/Clase-7-Axios_fwbj2j.png)
