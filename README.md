@@ -44,14 +44,12 @@ Por último, tenemos la misma aplicación migrada a Redux, utilizando ReduxThunk
 ```
 
 
-#### Carpetas nuevas en la rama ReduxThunk
+#### Carpetas nuevas en la rama ReduxToolkit
 
 | Carpeta    | Descripción                |
 | :--------|:------------------------- |
-| `actions` | ------------------------ |
-| `reducers` | ------------------------ |
+| `slices` | ------------------------ |
 | `store` | ------------------------ |
-| `types` | ------------------------ |
 
 
 
