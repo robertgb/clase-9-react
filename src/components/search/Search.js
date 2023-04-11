@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { ImSearch } from "react-icons/im";
 import { SearchFormStyled, InputStyled, ButtonStyled } from "./SearchStyles";
+import { useDispatch } from "react-redux";
+import { fetchPokemon } from "../../helpers/pokemonActions";
 
-const Search = ({ handleSubmit }) => {
+const Search = () => {
   const [pokemon, setPokemon] = useState()
+  const dispatch = useDispatch()
   return (
     <SearchFormStyled
       onSubmit={(e) => {
-        e.preventDefault();
-        handleSubmit(pokemon)
+        dispatch(fetchPokemon(e, pokemon))
+        setPokemon("")
       }}
     >
       <InputStyled placeholder="Search" value={pokemon} onChange={(e) => setPokemon(e.target.value)} />
